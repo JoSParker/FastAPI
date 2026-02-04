@@ -1,0 +1,74 @@
+# ----------------------
+# Python cache files
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*.so
+
+# ----------------------
+# Virtual environments
+# ----------------------
+venv/
+env/
+.venv/
+ENV/
+
+# ----------------------
+# Environment variables (VERY IMPORTANT)
+# ----------------------
+.env
+.env.*
+*.env
+
+# ----------------------
+# FastAPI / Uvicorn logs
+# ----------------------
+*.log
+
+# ----------------------
+# Testing / coverage
+# ----------------------
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ----------------------
+# Build / packaging
+# ----------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ----------------------
+# SQLite / local DBs
+# ----------------------
+*.db
+*.sqlite3
+
+# ----------------------
+# IDE files
+# ----------------------
+.vscode/
+.idea/
+
+# ----------------------
+# OS junk
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# mypy / type checker
+# ----------------------
+.mypy_cache/
+
+# ----------------------
+# node (if you add frontend later)
+# ----------------------
+node_modules/
